@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/7807130/143060785-f3cd9f11-19d0-44ca-9612-f1968125b4a4.png)
+
+
 *Solanum tuberosum* "Diacol capiro" HiFi genome assembly
 =
 
