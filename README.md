@@ -14,7 +14,7 @@ En este github se encuentran los flujos de trabajo utilizados para construir el 
 
 
 ### Requisitos
--
+
 
 - [HiCanu](https://github.com/marbl/canu) v2.1
 
