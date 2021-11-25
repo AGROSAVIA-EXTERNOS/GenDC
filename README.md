@@ -2,7 +2,6 @@
 
 
 # Piloto 9: Construir una primera versión del ensamblaje del genoma de la variedad diacol capiro una papa tetraploide ampliamente sembrada en Colombia.
-=
 
 ## Objetivo 
 Construir una primera versión del ensamblaje del genoma de la variedad diacol capiro una papa tetraploide ampliamente sembrada en Colombia.
