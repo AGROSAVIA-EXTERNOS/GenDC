@@ -1,8 +1,6 @@
-Assembly Correction
+Corrección de ensamblaje
 =
+El ensamblaje escogido fue corregido de dos formas:
 
-Choosen draft asembly was corrected in two ways:
-
-
-- Canu draft assembly v2 corrected with raw HiC-reads
-- Canu draft assembly v3 corrected with HiC valid contacts
+- Ensamblaje de Canu v2 corregido con lecturas HiC crudas
+- Ensamblaje de Canu v3 corregido con contactos válidos HiC.
