@@ -1,31 +1,31 @@
 ALLHiC Scaffolding
 =
 
-We used ALLHiC pipeline for the scaffolding, we used several strategies by varing the input data and reference genome used for the synteny:
+Se usó el flujo de trabajo de ALLHiC para el scaffolding, se usaron múltiples estrategias variando los datos de entrada y el genoma de referencia utilizado para el synteny.
 
 ----------------
-#### Initial assembly:
+#### Ensamblaje inicial:
 
-- Canu v1 assembly: the HiCanu assembly 
-- Canu v2 assembly: the output of ALLHIC_corrector giving in input Canu v1 and the raw Hi-C data 
-- Canu v3 assembly: the output of ALLHIC_corrector giving in input Canu v1 and the Hi-C valid contacts 
+- Ensamblaje Canu v1: Ensamblaje de HiCanu 
+- Ensamblaje Canu v2: Salida de ALLHIC_correccion, como entrada Canu v1 y los datos crudos de Hi-C.
+- Ensamblaje Canu v3: Salida de ALLHIC_correccion, como entrada Canu v1 y los contactos válidos HiC 
 
 ----------------
-#### Reference genome:
+#### Genoma de referencia:
 
 - [RH89-039-16](https://www.nature.com/articles/s41588-020-0699-x)
 - [DMv6](https://academic.oup.com/gigascience/article/9/9/giaa100/5910251)
 
 ----------------
 
-| Strategy  | Reference genome | Initial assembly | Hi-C reads |
+| Estrategia  | Genoma de referencia | Ensamblaje Inicial | Lecturas HiC |
 | ------------- | ------------- | ------------- | ------------- |
-| st0  | RH89-039-16   | Canu v1 assembly | raw HiC reads |
-| st1  | RH89-039-16   | Canu v2 assembly | raw Hi-C reads|
-| st2  | RH89-039-16   | Canu v2 assembly | Hi-C valid contacts|
-| st3  | RH89-039-16   | Canu v1 assembly  | Hi-C valid contacts|
-| st4  | RH89-039-16   | Canu v3 assembly  | Hi-C valid contacts|
-| st5  | DMv6    | Canu v1 assembly  | Hi-C valid contacts|
-| st6  | DMv6    | Canu v2 assembly | Hi-C valid contacts|
-| st7  | DMv6    | Canu v3 assembly | Hi-C valid contacts|
+| st0  | RH89-039-16   | Ensamblaje Canu v1 | lecturas crudas HiC |
+| st1  | RH89-039-16   | Ensamblaje Canu v2 | raw Hi-C reads|
+| st2  | RH89-039-16   | Ensamblaje Canu v2 | Contactos válidos HiC|
+| st3  | RH89-039-16   | Ensamblaje Canu v1  | Contactos válidos HiC|
+| st4  | RH89-039-16   | Ensamblaje Canu v3  | Contactos válidos HiC|
+| st5  | DMv6    | Ensamblaje Canu v1  | Contactos válidos HiC|
+| st6  | DMv6    | Ensamblaje Canu v2 | Contactos válidos HiC|
+| st7  | DMv6    | Ensamblaje Canu v3 | Contactos válidos HiC|
 
